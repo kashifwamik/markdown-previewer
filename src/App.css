@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #4aa3a3 0%, #83c5c5 50%, #a3e4e4 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  background-color: #4aa3a3;
+  padding: 0.3rem;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  font-family: "Russo One", sans-serif;
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pr {
+  width: 80vw;
+}
+.ed {
+  width: 50vw;
+  margin: 15px 20vw;
+}
+
+textarea {
+  width: 50vw;
+  padding: 10px;
+  height: 200px;
+  margin: 0 20vw;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  resize: none;
+}
+
+#preview {
+  width: 80vw;
+  padding: 20px;
+  background-color: #87b5b5;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+  font-size: 1rem;
+}
